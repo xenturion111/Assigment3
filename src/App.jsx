@@ -1,22 +1,24 @@
 import './App.css'
 import react from "react";
-import SideNav from './components/navbar';
+import SideNav from './components/navbar/index';
 import {
   Routes,
   Route,
 } from "react-router-dom";
-import About from "./pages/About";
-import Awards from "./pages/Awards";
-import Experience from "./pages/Experience";
-import Interest from './pages/Interest'; 
-import Skills from './pages/Skils'; 
+import Home from "./pages/home/Home";
+import About from "./pages/about/About";
+import Awards from "./pages/awards/Awards";
+import Experience from "./pages/experience/Experience";
+import Interest from './pages/interest/Interest'; 
+import Skills from './pages/skills/Skils'; 
 
 function App() {
   return (
-    <div className="App">
+    <div className="container">
       <SideNav />
       <Routes>
-        <Route path="/About" element={<About />} />
+      <Route index path="/" element={<Home />} />
+        <Route id="/About" path="/About" element={<About />} />
         <Route path="/Awards" element={<Awards />} />
         <Route path="/Experience" element={<Experience />} />
         <Route path="/Interest" element={<Interest />} />

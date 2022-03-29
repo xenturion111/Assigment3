@@ -1,5 +1,9 @@
+import React from 'react'
+import './index.css'
+
 const Home = () => {
-    <div className="container-Home">
+    return(
+        <div className="container-Home">
         <h1>Reza Aditiya mustafa</h1>
         <h2>This is a Portfolio</h2>
         <p>
@@ -11,5 +15,7 @@ const Home = () => {
          and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
         </p>
     </div>
+    )
+   
 }
 export default Home;
