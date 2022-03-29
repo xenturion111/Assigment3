@@ -8,10 +8,10 @@ const SideNav = () => {
         <div className="sidenav">
         <img id="profile" src={profile} alt="Profile" />;
             <Link to="/pages/About">About</Link> 
-            {/* <Link to="../pages/About">Experiences</Link>
-            <Link to="../pages/About">Skills</Link>
-            <Link to="../pages/About">Interest</Link>
-            <Link to="../pages/About">Awards</Link> */}
+            <Link to="../pages/Experience">Experiences</Link>
+            <Link to="../pages/Skills">Skills</Link>
+            <Link to="../pages/Interest">Interest</Link>
+            <Link to="../pages/Awards">Awards</Link>
         </div>
     );
 };
