@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Luxurious+Roman&family=Press+Start+2P&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
 body {
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Source Code Pro', monospace;
     color: #444;
     background: #101820FF;
     overflow: hidden;
@@ -14,24 +14,4 @@ body {
     min-height: 566px;
     position: absolute;
     margin-top: 0;
-}
-
-.container-About {
-    margin-left: 22%;
-}
-
-.container-Awards {
-    margin-left: 22%;
-}
-
-.container-Experience {
-    margin-left: 22%;
-}
-
-.container-Interest {
-    margin-left: 22%;
-}
-
-.container-Skills {
-    margin-left: 22%;
 }

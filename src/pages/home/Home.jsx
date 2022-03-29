@@ -1,5 +1,6 @@
 import React from 'react'
 import './index.css'
+import Am from "../../assets/image/Am.jpg"
 
 const Home = () => {
     return(
@@ -16,6 +17,9 @@ const Home = () => {
                 and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                 </p>
             </div>
+           <div className="sus-bg">
+                <img id="xqcAm" src={Am} alt="Profile"/>
+           </div>
     </div>
     )
    
