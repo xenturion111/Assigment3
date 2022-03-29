@@ -1,5 +1,8 @@
+import React from 'react'
+
 const About = () => {
-    <div className="container-About">
+    return (
+        <div className="container-About">
         <h1>Reza Aditiya mustafa</h1>
         <h2>This is a Portfolio</h2>
         <p>
@@ -11,5 +14,6 @@ const About = () => {
          and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
         </p>
     </div>
+    )
 }
 export default About;
