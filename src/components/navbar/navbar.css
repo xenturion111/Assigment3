@@ -4,7 +4,7 @@
     z-index: 3; 
     top: 0; 
     left: 0; 
-    background-color:#343432; 
+    background-color:#FEE715FF; 
     transition: .5s ease; 
     overflow-x: hidden; 
     padding-top: 10%; 
@@ -15,15 +15,16 @@
 }
 
 .sidenav a{
-    color: #fff;
+    color: #101820FF;
     text-decoration: none;
     padding: 5px;
     font-size: 20px;
     position: relative;
+   
 }
 
 .sidenav a:hover{
-    color:aqua;
+    color:#ffffff;
 }
 
 .sidenav a::after{

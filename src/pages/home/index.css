@@ -1,6 +1,8 @@
-
-.container-Home {
-    margin-left: 10%;
+.container-Home .text-Zone {
     position: absolute;
-    min-height: 566px;
+    left: 10%;
+    top: 40%;
+    transform: translateY(-50%);
+    width: 40%;
+    max-height: 90%;
 }
