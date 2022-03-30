@@ -1,20 +1,17 @@
 .container-Home .text-Zone {
-    position: absolute;
-    left: 10%;
-    top: 40%;
-    transform: translateY(-40%);
-    width: 50%;
+    position: relative;
+    left: 12%;
+    top: 10rem;
+    width: 60%;
     max-height: 100%;
     min-width: 500px;
 }
 
-.container-Home #xqcAm{
-    max-width: 40%;
-    height: 500px;
+#xqcAm{
     position: absolute;
-    right: 1%;
-    top: 40%;
-    display:block;
+    left: 75%;
+    max-width: 20%;
+    height: 300px;
 }
 
 .text-Zone h1 {
