@@ -1,11 +1,12 @@
 import React from 'react'
 import './index.css'
-const About = () => {
+
+const Awards = () => {
     return (
-        <div className="container-About">
+        <div className="container-Awards">
             <div className="text-zone"> 
                 <h1>Reza Aditiya mustafa</h1>
-                <h2>This is a Portfolio</h2>
+                <h2>This is a Awards</h2>
                 <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
@@ -18,4 +19,4 @@ const About = () => {
     </div>
     )
 }
-export default About;
+export default Awards;

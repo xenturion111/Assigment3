@@ -1,27 +1,27 @@
-import React from 'react';
+import React, { Component } from 'react';
 import profile from '../../assets/image/profile.jpg'
 import './navbar.css'
-import { Link } from "react-router-dom";
+import { HashLink as Link} from 'react-router-hash-link';
 
-
-const SideNav = () => {
-    return (
-
-        <div>
-            <ul>
-                <li className="sidenav">
-                    <Link className="logo" to='/'> 
-                        <img id="profile" src={profile} alt="Profile"/>
-                    </Link>
-                    <Link  to="/About">About</Link> 
-                    <Link  to="/Experience">Experiences</Link>
-                    <Link  to="/Skills">Skills</Link>
-                    <Link  to="/Interest">Interest</Link>
-                    <Link  to="/Awards">Awards</Link>
-                </li>
-            </ul>
-        </div>
-    );
-};
-
-export default SideNav;
+export default class SideNav extends Component {
+    render() {
+        return (   
+            <div>
+                <nav>
+                    <ul>
+                        <li className="sidenav">
+                            <Link  className="logo" to='/'> 
+                                <img id="profile" src={profile} alt="Profile"/>
+                            </Link>
+                            <Link smooth to="/About">About</Link> 
+                            <Link smooth to="/Experience">Experiences</Link>
+                            <Link smooth to="/Skills">Skills</Link>
+                            <Link smooth to="/Interest">Interest</Link>
+                            <Link smooth to="/Awards">Awards</Link>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        )
+    }
+}
