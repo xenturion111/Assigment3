@@ -1,10 +1,11 @@
 import React from 'react'
 import './index.css'
+import GitHubCalendar from 'react-github-calendar';
+
 const About = () => {
     return (
         <div className="container-About">
             <div className="text-zone"> 
-                <h1>Reza Aditiya mustafa</h1>
                 <h2>This is a About</h2>
                 <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
@@ -14,6 +15,7 @@ const About = () => {
                 It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
                 and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                 </p>
+                <GitHubCalendar color="yellow" username="xenturion111" />
             </div>
     </div>
     )

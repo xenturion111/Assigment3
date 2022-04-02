@@ -6,3 +6,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.container {
+  display: block;
+  margin-top: 50px;
+  min-height: 100%;
+}

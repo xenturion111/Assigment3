@@ -12,15 +12,15 @@ export default class Pages extends Component {
     render() {
         return (
             <div className="container">
-            <SideNav />
-            <Routes>
-              <Route index path="/" element={<Home />} />
-              <Route path="/About" element={<About />} />
-              <Route path="/Awards" element={<Awards />} />
-              <Route path="/Experience" element={<Experience />} />
-              <Route path="/Interest" element={<Interest />} />
-              <Route path="/Skills" element={<Skills />} />
-            </Routes>
+              <SideNav />
+              <Routes>
+                <Route exact  path="/" element={<Home />} />
+                <Route path="/About" element={<About />} />
+                <Route path="/Awards" element={<Awards />} />
+                <Route path="/Experience" element={<Experience />} />
+                <Route path="/Interest" element={<Interest />} />
+                <Route path="/Skills" element={<Skills />} />
+              </Routes>
           </div>
         )
     }

@@ -1,40 +1,26 @@
-/* .container-About {
-    max-width: 100%;
-    max-height: 100%;
-    position: relative;
-} */
-
-.container-Interest .text-zone {
-    position: relative;
-    left: 12%;
-    top: 10rem;
-    width: 60%;
-    max-height: 100%;
-    min-width: 500px;
-}
-.text-Zone h1 {
-    color: #FFE400;
-     font-size: 50px; 
-     font-weight: bold; 
-     letter-spacing: -1px; 
-     line-height: 1; 
-     text-align: justify; 
+.container-Interest h1{
+    margin-left: 40%;
 }
 
-.text-Zone h2 {
-    color: #FFE400;
-    font-size: 30px; 
-    font-weight: 300; 
-    line-height: 32px;
-    margin: 0 0 10px; 
-    text-align: justify;
+
+.icon-container {
+    width: 20%;
+    margin-left: 43%;
 }
 
-.text-Zone p {
-   color: #685206; 
-   font-size: 14px; 
-   line-height: 24px;
-   margin: 0 0 10px; 
-   text-align: justify; 
-   text-justify: inter-word;
+.icon{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.icon-container #gaming {
+    background-color: yellow;   
+}
+
+.icon-container #code {
+    background-color: yellow;   
+}
+
+.icon-container #book {
+    background-color: yellow;   
 }

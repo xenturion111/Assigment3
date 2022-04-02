@@ -1,22 +1,23 @@
 import React from 'react'
 import './index.css'
+import { SiJavascript, SiReact, SiCss3, SiHtml5 } from "react-icons/si";
+import Box from '@material-ui/core/Box';
 
 const Skills = () => {
     return (
-        <div className="container-Skills">
-        <div className="text-zone"> 
-                <h1>Reza Aditiya mustafa</h1>
-                <h2>This is a Skills</h2>
-                <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
-                and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                </p>
-            </div>
-    </div>
+        <div className='containerSkills'>
+            
+            <Box class='skill-box'>
+                <h1>What I Do</h1>
+                <p>This is my stack, but i'll keep learning</p>
+                <Box class='skill-flex'>
+                    <SiJavascript id="icon-js" size='60px' color='#101820FF'/>
+                    <SiReact id="icon-react" size='60px' color='#101820FF'/>
+                    <SiCss3 id="icon-css" size='60px' color='#101820FF'/>
+                    <SiHtml5 id="icon-css" size='60px' color='#101820FF'/>
+                </Box>
+            </Box>
+        </div>
     )
 }
 export default Skills;

@@ -4,37 +4,25 @@
     position: relative;
 } */
 
-.container-Skills .text-zone {
-    position: relative;
-    left: 12%;
-    top: 10rem;
-    width: 60%;
-    max-height: 100%;
-    min-width: 500px;
-}
-.text-Zone h1 {
-    color: #FFE400;
-     font-size: 50px; 
-     font-weight: bold; 
-     letter-spacing: -1px; 
-     line-height: 1; 
-     text-align: justify; 
+.containerSkills {
+    margin-left: 25%;
+    margin-top: 15%;
+    margin-right: 20%;
 }
 
-.text-Zone h2 {
-    color: #FFE400;
-    font-size: 30px; 
-    font-weight: 300; 
-    line-height: 32px;
-    margin: 0 0 10px; 
-    text-align: justify;
+ .skill-box {
+    background-color: #FEE715FF;
 }
-
-.text-Zone p {
-   color: #685206; 
-   font-size: 14px; 
-   line-height: 24px;
-   margin: 0 0 10px; 
-   text-align: justify; 
-   text-justify: inter-word;
+.skill-box h1{
+    text-align: center;
+}
+.skill-box {
+    text-align: center;
+}
+ .skill-flex{
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding-bottom: 2rem;
 }

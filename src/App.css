@@ -1,15 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
 body {
     font-family: 'Source Code Pro', monospace;
-    color: #444;
+    color: #646669;
     background: #101820FF;
 }
 
 .container {
-    max-width: 100%;
-    will-change: contents;
-    max-height: 100%;
-    position: absolute;
-    margin-top: 0;
     display:block;
 }
